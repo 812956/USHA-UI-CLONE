@@ -1,0 +1,381 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto";
+    padding: 0;
+}
+
+/* header */
+
+.main_nav_bar {
+    width: 100%;
+    height: 54px;
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_nav_items {
+    height: 49px;
+    width: 1170px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main_items {
+    width: 664.28px;
+    height: 44px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.fa-brands,
+.fa-whatsapp {
+    font-size: 24px;
+    color: #38a65d;
+    font-weight: 400;
+}
+
+.para_number {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    color: #fff;
+    font-weight: normal;
+}
+
+.nav_bar_vertical {
+    font-size: 26px;
+    color: rgb(132, 128, 128);
+    margin: 0 5px 3px 5px;
+}
+
+#nav_selector {
+    width: 130px;
+    height: 25px;
+    border: 0px;
+    outline: none;
+    border-radius: 30px;
+}
+
+.second_nav {
+    height: 42px;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.sec_nav_options {
+    height: 22px;
+    width: 428px;
+    margin-right: 91px;
+}
+
+.sec_nav_ul {
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sec_nav_ul li a {
+    text-decoration: none;
+    font-size: 15px;
+    text-decoration: none;
+    color: gray;
+}
+
+.sec_nav_ul li:hover {
+    border-bottom: 2px solid red;
+}
+
+/* body contants*/
+
+.body_contant {
+    background-image: url(images/background.jpg);
+    width: 100%;
+    height: 534px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contant_items {
+    width: 85%;
+    height: 516px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.row_contants {
+    width: 100%;
+    height: 160px;
+
+}
+
+.first_row_contants {
+    display: flex;
+    justify-content: space-between;
+}
+
+.second_row_contants {
+    display: flex;
+    justify-content: space-between;
+}
+
+.third_row_contants {
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner {
+    height: 160px;
+    width: 371px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10.5px;
+
+    border: 0.2px solid rgba(150, 146, 146, 0.2);
+    background-color: white;
+
+
+    box-shadow: 0 0 40px rgba(207, 205, 205, 0.2) inset;
+}
+
+.banner:hover {
+    box-shadow: 1px 2px 50px gray;
+}
+.banner:hover .view_range{
+    color: red;
+}
+
+
+
+.banner_img {
+    width: 155px;
+    height: 103px;
+    position: relative;
+    top: 1px;
+    left: 97px;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* each banner hover*/
+
+
+
+
+.fir_banner_image:hover {
+    content: url(images/usha-fans_0\ \(1\).png);
+    image-resolution: 155px 103px;
+
+}
+
+.sec_banner_image:hover {
+    content: url(images/usha-mixi-red.png);
+    image-resolution: 155px 103px;
+}
+
+.third_banner_image:hover {
+    content: url(images/usha-trailering-machines.png);
+    image-resolution: 155px 103px;
+}
+
+.forth_banner_image:hover {
+    content: url(images/usha-iorn-red.png);
+    image-resolution: 155px 103px;
+}
+
+.fifth_banner_image:hover {
+    content: url(images/usha-water-coolers-dispensers.png);
+    image-resolution: 155px 103px;
+}
+
+.sixth_banner_image:hover {
+    content: url(images/usha-room-coolers.png);
+    image-resolution: 155px 103px;
+}
+
+.seventh_banner_image:hover {
+    content: url(images/usha-water-heaters-red.png);
+    image-resolution: 155px 103px;
+}
+
+.eigth_banner_image:hover {
+    content: url(images/usha-room-heaters-red.png);
+    image-resolution: 155px 103px;
+}
+
+.nineth_banner_image:hover {
+    content: url(images/usha-electric-water-pumps-red.png);
+    image-resolution: 155px 103px;
+}
+
+
+.view_range {
+    position: relative;
+    font-size: 12px;
+    margin-left: 267px;
+    color: #333;
+}
+
+
+.item_name_p {
+    font-size: 14px;
+    color: #333;
+}
+
+
+/* footer */
+
+footer {
+
+    height: 223px;
+    width: 100%;
+    background-color: #222222;
+    padding: 20px 0px;
+
+}
+
+.footer_linksandimages {
+    width: 1171px;
+    height: 43.8px;
+    background-color: #222222;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.footer_covering {
+    margin: 0px 89.5px;
+}
+
+.followus {
+    width: 190.19px;
+    height: 26px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 8px;
+
+}
+
+.followus p {
+    font-size: 12px;
+    line-height: 27px;
+
+    font-family: 'roboto_regular', sans-serif;
+}
+
+.usha_bottom_banner {
+    margin-left: 192px;
+}
+
+.sing_up_block {
+    width: 393px;
+    height: 34px;
+    background-color: #222222;
+
+    display: flex;
+    margin-right: 12px;
+}
+
+.sign_h4 {
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 12px;
+    font-family: 'roboto_light', sans-serif;
+    margin-top: 11px;
+    font-weight: lighter;
+}
+
+.sign_input {
+    background-color: #393939;
+    width: 155px;
+    border: none;
+    padding: 2px 10px;
+    color: #7c7777;
+    font-size: 12px;
+    line-height: 30px;
+    font-family: 'roboto_light', sans-serif;
+}
+
+.signup_button {
+    width: 64px;
+    background: #ee1d24;
+    color: #fff;
+    font-size: 11px;
+    padding: 2px 10px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+.hr {
+    margin-top: 27px;
+    border: unset;
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.copy_right_section {
+    width: 1171px;
+    height: 111px;
+    background-color: #222222;
+}
+
+.copy_right_section {
+    display: flex;
+    padding-left: 10px;
+}
+
+.copy_right_section h3 {
+    color: white;
+    font-weight: lighter;
+    margin-bottom: 6px;
+    margin-top: 34px;
+}
+
+.copy_right_section h4 {
+    font-weight: lighter;
+    color: rgb(177, 167, 167);
+}
+
+.office_address {
+    font-size: 11px;
+    line-height: 18px;
+    font-weight: lighter;
+    font-family: 'roboto_light', sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+.phone_number h4 {
+
+    font-size: 11px;
+    line-height: 18px;
+
+    font-family: 'roboto_light', sans-serif;
+    margin-top: 58px;
+    margin-left: 24px;
+    color: rgb(221, 211, 211);
+}
+
+.copyrigh {
+    font-size: 11px;
+    line-height: 18px;
+
+    font-family: 'roboto_light', sans-serif;
+    margin-top: 58px;
+    margin-left: 309px;
+    color: rgb(221, 211, 211);
+    text-align: right;
+}
